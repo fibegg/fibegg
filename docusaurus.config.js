@@ -38,30 +38,8 @@ const config = {
     ],
   ],
 
-  headTags: [
-    {
-      tagName: 'link',
-      attributes: {
-        rel: 'preconnect',
-        href: 'https://fonts.googleapis.com',
-      },
-    },
-    {
-      tagName: 'link',
-      attributes: {
-        rel: 'preconnect',
-        href: 'https://fonts.gstatic.com',
-        crossorigin: 'anonymous',
-      },
-    },
-    {
-      tagName: 'link',
-      attributes: {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;900&display=swap',
-      },
-    },
-  ],
+
+
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -80,7 +58,21 @@ const config = {
       },
       navbar: {
         title: 'Playgrounds.dev',
+        logo: {
+          alt: 'Playgrounds.dev',
+          src: 'img/logo.png',
+        },
         items: [
+          {
+            href: 'https://docs.playgrounds.dev',
+            label: 'Docs',
+            position: 'left',
+          },
+          {
+            href: 'https://blog.playgrounds.dev',
+            label: 'Blog',
+            position: 'left',
+          },
           {
             href: 'https://github.com/phoenix-playgrounds',
             label: 'GitHub',

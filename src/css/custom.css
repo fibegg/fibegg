@@ -1,6 +1,9 @@
 :root {
-  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
-  --ifm-heading-font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  --ifm-font-family-base: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --ifm-heading-font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --ifm-font-size-base: 17px;
+  --ifm-line-height-base: 1.65;
+  --ifm-heading-font-weight: 600;
 }
 
 [data-theme='dark'] {
@@ -76,6 +79,11 @@ html[data-theme='dark'] {
 .navbar__title {
   font-weight: 700;
   letter-spacing: -0.5px;
+}
+
+.navbar__logo img {
+  height: 28px;
+  width: 28px;
 }
 
 .footer--dark {
