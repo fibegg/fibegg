@@ -287,6 +287,193 @@ html[data-theme='dark'] {
   color: rgba(52, 211, 153, 0.5);
 }
 
+.beta-section {
+  min-height: calc(100vh - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  padding: 4rem 2rem;
+}
+
+.beta-section::before {
+  content: '';
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(99, 102, 241, 0.1) 0%, transparent 70%);
+  top: -200px;
+  left: -150px;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.beta-section::after {
+  content: '';
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(52, 211, 153, 0.08) 0%, transparent 70%);
+  bottom: -150px;
+  right: -100px;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.beta-inner {
+  max-width: 560px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  animation: floatUp 0.8s ease-out forwards;
+}
+
+.beta-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-top: 2.5rem;
+}
+
+.beta-card {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 20px;
+  padding: 2rem 2rem 2.25rem;
+  transition: all 0.3s ease;
+}
+
+.beta-card:hover {
+  border-color: rgba(52, 211, 153, 0.3);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25), 0 0 30px var(--accent-glow);
+}
+
+.beta-card-icon {
+  font-size: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.beta-card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.4rem;
+  letter-spacing: -0.3px;
+}
+
+.beta-card-desc {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+.beta-form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.beta-input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.beta-input::placeholder {
+  color: rgba(241, 245, 249, 0.3);
+}
+
+.beta-input:focus {
+  border-color: rgba(52, 211, 153, 0.4);
+  box-shadow: 0 0 0 3px rgba(52, 211, 153, 0.08);
+}
+
+.beta-submit {
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(135deg, rgba(52, 211, 153, 0.2), rgba(99, 102, 241, 0.2));
+  border: 1px solid rgba(52, 211, 153, 0.3);
+  border-radius: 12px;
+  color: var(--accent);
+  font-size: 0.95rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+
+.beta-submit:hover {
+  background: linear-gradient(135deg, rgba(52, 211, 153, 0.3), rgba(99, 102, 241, 0.3));
+  border-color: rgba(52, 211, 153, 0.5);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(52, 211, 153, 0.15);
+}
+
+.beta-divider {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 0;
+}
+
+.beta-divider::before,
+.beta-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.08), transparent);
+}
+
+.beta-divider-text {
+  font-size: 0.8rem;
+  color: rgba(241, 245, 249, 0.25);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.beta-email-cta {
+  justify-content: center;
+  font-size: 0.95rem;
+  width: 100%;
+}
+
+.beta-arrow {
+  transition: transform 0.2s ease;
+}
+
+.beta-email-cta:hover .beta-arrow {
+  transform: translateX(3px);
+}
+
+.beta-footnote {
+  margin-top: 2.5rem;
+  font-size: 0.72rem;
+  color: rgba(255, 255, 255, 0.15);
+  letter-spacing: 0.3px;
+}
+
+.beta-footnote a {
+  color: rgba(255, 255, 255, 0.15);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.beta-footnote a:hover {
+  color: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+}
+
 @media (max-width: 768px) {
   .hero-section {
     padding: 3rem 1.25rem;
@@ -298,5 +485,17 @@ html[data-theme='dark'] {
 
   .features-grid {
     grid-template-columns: 1fr;
+  }
+
+  .beta-section {
+    padding: 3rem 1.25rem;
+  }
+
+  .beta-form {
+    flex-direction: column;
+  }
+
+  .beta-card {
+    padding: 1.5rem;
   }
 }
