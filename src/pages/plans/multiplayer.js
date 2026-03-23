@@ -35,7 +35,7 @@ export default function Multiplayer() {
                                 Multiplayer plan details coming soon. Get started today with our beta access.
                             </Translate>
                         </p>
-                        <a className="hero-cta" href="https://my.playgrounds.dev">
+                        <a className="hero-cta" href="https://my.fibe.gg">
                             <Translate id="plans.multiplayer.cta">Get Started →</Translate>
                         </a>
                     </div>

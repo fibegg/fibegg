@@ -182,7 +182,7 @@ export default function Terms() {
                     <h2>19. Contact</h2>
                     <p>
                         If you have any questions about these Terms, please contact us at{' '}
-                        <a href="mailto:legal@playgrounds.dev">legal@playgrounds.dev</a>.
+                        <a href="mailto:legal@fibe.gg">legal@fibe.gg</a>.
                     </p>
                 </div>
             </div>

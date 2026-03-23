@@ -47,7 +47,7 @@ function BetaHero() {
                             </Translate>
                         </p>
                         <form
-                            action="https://buttondown.com/api/emails/embed-subscribe/playgrounds.dev"
+                            action="https://buttondown.com/api/emails/embed-subscribe/fibe.gg"
                             method="post"
                             className="beta-form"
                             referrerPolicy="unsafe-url"
@@ -83,14 +83,14 @@ function BetaHero() {
                                 your use case.
                             </Translate>
                         </p>
-                        <a href="mailto:beta@playgrounds.dev" className="hero-cta beta-email-cta">
-                            beta@playgrounds.dev <span className="beta-arrow">→</span>
+                        <a href="mailto:beta@fibe.gg" className="hero-cta beta-email-cta">
+                            beta@fibe.gg <span className="beta-arrow">→</span>
                         </a>
                     </div>
                 </div>
 
                 <p className="beta-footnote">
-                    <a href="https://buttondown.com/refer/playgrounds.dev" target="_blank" rel="noopener noreferrer">
+                    <a href="https://buttondown.com/refer/fibe.gg" target="_blank" rel="noopener noreferrer">
                         <Translate id="beta.powered">Powered by Buttondown</Translate>
                     </a>
                 </p>

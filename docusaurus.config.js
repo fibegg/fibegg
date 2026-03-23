@@ -16,10 +16,10 @@ const config = {
     v4: true,
   },
 
-  url: 'https://playgrounds.dev',
+  url: 'https://fibe.gg',
   baseUrl: '/',
 
-  organizationName: 'playgroundsHQ',
+  organizationName: 'fibegg',
   projectName: 'marketing',
 
   onBrokenLinks: 'throw',
@@ -108,12 +108,12 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://docs.playgrounds.dev',
+            href: 'https://docs.fibe.gg',
             label: 'Docs',
             position: 'left',
           },
           {
-            href: 'https://blog.playgrounds.dev',
+            href: 'https://blog.fibe.gg',
             label: 'Blog',
             position: 'left',
           },
@@ -124,7 +124,7 @@ const config = {
             className: 'navbar__link--contact',
           },
           {
-            href: 'https://github.com/playgroundsHQ',
+            href: 'https://github.com/fibegg',
             label: 'GitHub',
             position: 'right',
           },

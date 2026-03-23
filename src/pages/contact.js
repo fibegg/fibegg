@@ -35,9 +35,9 @@ const channels = [
         titleDefault: 'Email Support',
         descId: 'contact.email.desc',
         descDefault: 'Reach out to our support team directly via email.',
-        linkText: 'support@playgrounds.dev →',
+        linkText: 'support@fibe.gg →',
         linkTextId: 'contact.email.link',
-        href: 'mailto:support@playgrounds.dev',
+        href: 'mailto:support@fibe.gg',
     },
     {
         icon: <PhoneIcon />,

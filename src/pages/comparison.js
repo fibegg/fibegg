@@ -341,7 +341,7 @@ export default function Comparison() {
           <p className="comparison-cta__subtitle">
             Launch your first full-stack environment in under 60 seconds.
           </p>
-          <a className="hero-cta" href="https://my.playgrounds.dev">
+          <a className="hero-cta" href="https://my.fibe.gg">
             Get Started Free →
           </a>
         </div>

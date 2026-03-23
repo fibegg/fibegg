@@ -143,7 +143,7 @@ export default function Privacy() {
                     </ul>
                     <p>
                         To exercise any of these rights, contact us at{' '}
-                        <a href="mailto:privacy@playgrounds.dev">privacy@playgrounds.dev</a>. We will respond to requests
+                        <a href="mailto:privacy@fibe.gg">privacy@fibe.gg</a>. We will respond to requests
                         within 30 days or as required by applicable law.
                     </p>
 
@@ -181,7 +181,7 @@ export default function Privacy() {
                     <h2>12. Contact Us</h2>
                     <p>
                         If you have questions or concerns about this Privacy Policy or our data practices, please contact
-                        us at <a href="mailto:privacy@playgrounds.dev">privacy@playgrounds.dev</a>.
+                        us at <a href="mailto:privacy@fibe.gg">privacy@fibe.gg</a>.
                     </p>
                 </div>
             </div>

@@ -35,7 +35,7 @@ export default function Enterprise() {
                                 Enterprise plans and custom pricing coming soon. Contact us for early access and tailored solutions.
                             </Translate>
                         </p>
-                        <a className="hero-cta" href="https://my.playgrounds.dev">
+                        <a className="hero-cta" href="https://my.fibe.gg">
                             <Translate id="enterprise.cta">Get Started →</Translate>
                         </a>
                     </div>
