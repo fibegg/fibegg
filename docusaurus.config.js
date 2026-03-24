@@ -2,7 +2,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Playgrounds.dev',
+  title: 'fibe.gg',
   tagline: 'Launch full-stack environments in seconds',
   favicon: 'img/favicon.ico',
 
@@ -54,9 +54,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       metadata: [
-        { name: 'description', content: 'Launch full-stack cloud environments in seconds. Playgrounds.dev gives your team instant, isolated development environments powered by Docker.' },
+        { name: 'description', content: 'Launch full-stack cloud environments in seconds. fibe.gg gives your team instant, isolated development environments powered by Docker.' },
         { name: 'keywords', content: 'cloud development environments, docker, devops, playgrounds, development, staging' },
-        { property: 'og:title', content: 'Playgrounds.dev — Launch full-stack environments in seconds' },
+        { property: 'og:title', content: 'fibe.gg — Launch full-stack environments in seconds' },
         { property: 'og:description', content: 'Instant, isolated cloud environments for development and staging. Powered by Docker.' },
         { property: 'og:type', content: 'website' },
       ],
@@ -68,7 +68,7 @@ const config = {
       navbar: {
         title: '',
         logo: {
-          alt: 'Playgrounds.dev',
+          alt: 'fibe.gg',
           src: 'img/logo.png',
         },
         items: [
@@ -136,7 +136,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `© ${new Date().getFullYear()} Playgrounds.dev — All rights reserved.`,
+        copyright: `© ${new Date().getFullYear()} fibe.gg — All rights reserved.`,
       },
       prism: {
         theme: prismThemes.github,

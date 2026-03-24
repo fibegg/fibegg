@@ -5,7 +5,7 @@ export default function Privacy() {
     return (
         <Layout
             title="Privacy Policy"
-            description="Privacy Policy for Playgrounds.dev — how we collect, use, and protect your data."
+            description="Privacy Policy for fibe.gg — how we collect, use, and protect your data."
         >
             <div className="legal-page">
                 <div className="legal-container">
@@ -13,7 +13,7 @@ export default function Privacy() {
                     <p className="legal-updated">Last updated: March 6, 2026</p>
 
                     <p>
-                        This Privacy Policy describes how Playgrounds.dev ("Company," "we," "us," or "our") collects, uses,
+                        This Privacy Policy describes how fibe.gg ("Company," "we," "us," or "our") collects, uses,
                         and shares information when you use our website, application, and services (collectively, the "Service").
                         By using the Service, you consent to the practices described in this policy.
                     </p>

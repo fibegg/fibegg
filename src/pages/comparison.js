@@ -23,7 +23,7 @@ const PartialIcon = () => (
 /* ─── Data ─── */
 
 const COMPETITORS = [
-  { key: 'playgrounds', name: 'Playgrounds.dev', highlight: true },
+  { key: 'playgrounds', name: 'fibe.gg', highlight: true },
   { key: 'codespaces',  name: 'GitHub Codespaces' },
   { key: 'gitpod',      name: 'Gitpod' },
   { key: 'replit',      name: 'Replit' },
@@ -203,8 +203,8 @@ export default function Comparison() {
 
   return (
     <Layout
-      title={translate({ id: 'comparison.layout.title', message: 'Compare Playgrounds.dev' })}
-      description={translate({ id: 'comparison.layout.description', message: 'See how Playgrounds.dev compares to GitHub Codespaces, Gitpod, Vercel, Replit, Bolt.new, and more.' })}
+      title={translate({ id: 'comparison.layout.title', message: 'Compare fibe.gg' })}
+      description={translate({ id: 'comparison.layout.description', message: 'See how fibe.gg compares to GitHub Codespaces, Gitpod, Vercel, Replit, Bolt.new, and more.' })}
     >
       {/* Hero */}
       <section className="comparison-hero">
@@ -218,7 +218,7 @@ export default function Comparison() {
             <span className="accent">compare</span>
           </h1>
           <p className="hero-subtitle">
-            An honest, feature-by-feature breakdown of Playgrounds.dev
+            An honest, feature-by-feature breakdown of fibe.gg
             against the tools developers use every day.
           </p>
         </div>

@@ -55,7 +55,7 @@ export default function Contact() {
     return (
         <Layout
             title={translate({ id: 'contact.layout.title', message: 'Contact Us' })}
-            description={translate({ id: 'contact.layout.description', message: 'Get in touch with the Playgrounds.dev team via Slack, email, or phone.' })}
+            description={translate({ id: 'contact.layout.description', message: 'Get in touch with the fibe.gg team via Slack, email, or phone.' })}
         >
             <section className="placeholder-section">
                 <div className="placeholder-inner">

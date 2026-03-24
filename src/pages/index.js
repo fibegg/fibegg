@@ -62,7 +62,7 @@ function Hero() {
         </h1>
         <p className="hero-subtitle">
           <Translate id="homepage.hero.subtitle">
-            Playgrounds.dev gives your team instant, isolated cloud
+            fibe.gg gives your team instant, isolated cloud
             environments powered by Docker. Deploy previews, run demos,
             and iterate faster — without touching production.
           </Translate>
@@ -107,7 +107,7 @@ export default function Home() {
   return (
     <Layout
       title={translate({ id: 'homepage.layout.title', message: 'Launch full-stack environments in seconds' })}
-      description={translate({ id: 'homepage.layout.description', message: 'Playgrounds.dev gives your team instant, isolated cloud environments powered by Docker.' })}
+      description={translate({ id: 'homepage.layout.description', message: 'fibe.gg gives your team instant, isolated cloud environments powered by Docker.' })}
     >
       <Hero />
       <Features />

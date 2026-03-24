@@ -5,7 +5,7 @@ export default function Terms() {
     return (
         <Layout
             title="Terms of Service"
-            description="Terms of Service for Playgrounds.dev — cloud development environments."
+            description="Terms of Service for fibe.gg — cloud development environments."
         >
             <div className="legal-page">
                 <div className="legal-container">
@@ -14,7 +14,7 @@ export default function Terms() {
 
                     <p>
                         These Terms of Service ("Terms") govern your access to and use of the services, websites, and applications
-                        (collectively, the "Service") provided by Playgrounds.dev ("Company," "we," "us," or "our"). By accessing
+                        (collectively, the "Service") provided by fibe.gg ("Company," "we," "us," or "our"). By accessing
                         or using the Service, you agree to be bound by these Terms. If you do not agree, do not use the Service.
                     </p>
 
@@ -35,7 +35,7 @@ export default function Terms() {
 
                     <h2>3. Description of Service</h2>
                     <p>
-                        Playgrounds.dev provides cloud-based development environments powered by Docker. The Service allows you to
+                        fibe.gg provides cloud-based development environments powered by Docker. The Service allows you to
                         create, manage, and access remote development environments including source code editing, containerized
                         services, and browser-based tools. Environments are provisioned on remote infrastructure and accessed
                         through web interfaces.

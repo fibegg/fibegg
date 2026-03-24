@@ -10,7 +10,7 @@ export default function Affiliate() {
     return (
         <Layout
             title={translate({ id: 'affiliate.layout.title', message: 'Affiliate Program' })}
-            description={translate({ id: 'affiliate.layout.description', message: 'Earn commissions by referring developers to Playgrounds.dev. Join our affiliate program today.' })}
+            description={translate({ id: 'affiliate.layout.description', message: 'Earn commissions by referring developers to fibe.gg. Join our affiliate program today.' })}
         >
             <section className="placeholder-section">
                 <div className="placeholder-inner">
@@ -26,7 +26,7 @@ export default function Affiliate() {
                     </h1>
                     <p className="hero-subtitle">
                         <Translate id="affiliate.subtitle">
-                            Love Playgrounds.dev? Refer developers and earn commissions on every subscription. It's that simple.
+                            Love fibe.gg? Refer developers and earn commissions on every subscription. It's that simple.
                         </Translate>
                     </p>
                     <div className="placeholder-card">

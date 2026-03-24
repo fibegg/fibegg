@@ -30,7 +30,7 @@ function BetaHero() {
                 </h1>
                 <p className="hero-subtitle">
                     <Translate id="beta.subtitle">
-                        Playgrounds.dev is launching soon. Subscribe to get notified when
+                        fibe.gg is launching soon. Subscribe to get notified when
                         we go live, or reach out directly for early beta access.
                     </Translate>
                 </p>
@@ -103,7 +103,7 @@ export default function Beta() {
     return (
         <Layout
             title={translate({ id: 'beta.layout.title', message: 'Beta — Early Access' })}
-            description={translate({ id: 'beta.layout.description', message: 'Subscribe for launch updates or request early beta access to Playgrounds.dev.' })}
+            description={translate({ id: 'beta.layout.description', message: 'Subscribe for launch updates or request early beta access to fibe.gg.' })}
         >
             <BetaHero />
         </Layout>
