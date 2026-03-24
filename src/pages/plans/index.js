@@ -35,7 +35,7 @@ export default function Plans() {
                                 Detailed pricing and plan comparison coming soon. Get started today with our beta access.
                             </Translate>
                         </p>
-                        <a className="hero-cta" href="https://my.fibe.gg">
+                        <a className="hero-cta" href="https://fibe.gg">
                             <Translate id="plans.cta">Get Started →</Translate>
                         </a>
                     </div>

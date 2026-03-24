@@ -67,7 +67,7 @@ function Hero() {
             and iterate faster — without touching production.
           </Translate>
         </p>
-        <a className="hero-cta" href="https://my.fibe.gg">
+        <a className="hero-cta" href="https://fibe.gg">
           <Translate id="homepage.hero.cta">Get Started →</Translate>
         </a>
       </div>
