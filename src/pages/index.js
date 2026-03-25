@@ -18,62 +18,62 @@ const SparkleIcon = () => (
   <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l3.09 8.26L24 9.27l-6.91 5.52L19.18 24 12 18.9 4.82 24l2.09-9.21L0 9.27l8.91-1.01L12 0z" /></svg>
 );
 
-const features = [
-  {
-    icon: <RocketIcon />,
-    titleId: 'homepage.feature.instant.title',
-    titleDefault: 'Instant Environments',
-    descId: 'homepage.feature.instant.desc',
-    descDefault: 'Spin up complete, isolated full-stack environments with a single click. No more "works on my machine."',
-    delay: '0s',
-  },
-  {
-    icon: <DockerIcon />,
-    titleId: 'homepage.feature.docker.title',
-    titleDefault: 'Docker-Powered',
-    descId: 'homepage.feature.docker.desc',
-    descDefault: 'Built on Docker Compose. Bring your own stack — databases, caches, workers, and services all included.',
-    delay: '2s',
-  },
-  {
-    icon: <LinkIcon />,
-    titleId: 'homepage.feature.urls.title',
-    titleDefault: 'Shareable URLs',
-    descId: 'homepage.feature.urls.desc',
-    descDefault: 'Every environment gets a unique subdomain. Share live previews with your team, clients, or stakeholders.',
-    delay: '4s',
-  },
-];
-
 function Hero() {
   return (
     <section className="hero-section">
       <div className="hero-inner">
         <span className="hero-badge">
           <SparkleIcon />
-          <Translate id="homepage.hero.badge">Now in Beta</Translate>
+          <Translate id="homepage.hero.badge">The Stargate is Open</Translate>
         </span>
         <h1 className="hero-title">
-          <Translate id="homepage.hero.title.line1">Launch full-stack</Translate>{' '}
-          <Translate id="homepage.hero.title.line2">environments</Translate>{' '}
+          <Translate id="homepage.hero.title.line1">Manifest your fleet</Translate>{' '}
+          <Translate id="homepage.hero.title.line2">across the ether</Translate>{' '}
           <span className="accent">
             <Translate id="homepage.hero.title.accent">in seconds</Translate>
           </span>
         </h1>
         <p className="hero-subtitle">
           <Translate id="homepage.hero.subtitle">
-            fibe.gg gives your team instant, isolated cloud
-            environments powered by Docker. Deploy previews, run demos,
-            and iterate faster — without touching production.
+            fibe.gg is the fabric where your ideas take form. 
+            Deploy instant, isolated cloud environments powered by Docker. 
+            Transmute code into reality and iterate faster than ever before.
           </Translate>
         </p>
         <a className="hero-cta" href="https://fibe.gg">
-          <Translate id="homepage.hero.cta">Get Started →</Translate>
+          <Translate id="homepage.hero.cta">Invoke Presence →</Translate>
         </a>
       </div>
     </section>
   );
 }
+
+const features = [
+  {
+    icon: <RocketIcon />,
+    titleId: 'homepage.feature.instant.title',
+    titleDefault: 'Instant Manifestation',
+    descId: 'homepage.feature.instant.desc',
+    descDefault: 'Spin up complete, isolated full-stack environments with a single thought. No more "works on my machine."',
+    delay: '0s',
+  },
+  {
+    icon: <DockerIcon />,
+    titleId: 'homepage.feature.docker.title',
+    titleDefault: 'Alchemy of Containers',
+    descId: 'homepage.feature.docker.desc',
+    descDefault: 'Built on the solid foundations of Docker Compose. Bring your own stack — databases, caches, and spirits of the machine.',
+    delay: '2s',
+  },
+  {
+    icon: <LinkIcon />,
+    titleId: 'homepage.feature.urls.title',
+    titleDefault: 'Beacons of Light',
+    descId: 'homepage.feature.urls.desc',
+    descDefault: 'Every environment radiates a unique subdomain. Share live previews across the digital realm with ease.',
+    delay: '4s',
+  },
+];
 
 function Features() {
   return (
